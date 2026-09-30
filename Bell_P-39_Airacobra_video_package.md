@@ -141,7 +141,7 @@
 - **Exact matching VO:** “Yet nearly half of all P-39s built went to the Soviet Union.”
 - **Screen duration:** 6.0 seconds (MOTION GRAPHIC REQUIRED; see edit-map cell)
 - **Claim ID:** C01, C02, C03
-- **Output:** `graphics/G01/G01_Nearly_Half.mp4` (motion, 1920×1080, 30 fps, 6.00 s / 180 frames, H.264) + `graphics/G01/G01.jpg` (final-frame still) — RENDERED; source script `graphics/G01/g01.py`
+- **Output:** `graphics/G01/G01_Nearly_Half.mp4` (motion, 1920×1080, 30 fps, 6.00 s / 180 frames, H.264, motion-blurred) + `graphics/G01/G01.jpg` (final-frame still) — RENDERED; source `graphics/G01/src/` (HTML/Chromium render; fonts SIL OFL 1.1)
 
 **Required information and exact on-screen text**
 - Main takeaway — production note only; do not place on screen: Roughly half of the P-39s the factory delivered ended up with the Soviet air forces.
