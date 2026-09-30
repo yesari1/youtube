@@ -141,7 +141,7 @@
 - **Exact matching VO:** “Yet nearly half of all P-39s built went to the Soviet Union.”
 - **Screen duration:** 6.0 seconds (MOTION GRAPHIC REQUIRED; see edit-map cell)
 - **Claim ID:** C01, C02, C03
-- **Output:** `G01.jpg` — 1920×1080
+- **Output:** `graphics/G01/G01_Nearly_Half.mp4` (motion, 1920×1080, 30 fps, 6.00 s / 180 frames, H.264) + `graphics/G01/G01.jpg` (final-frame still) — RENDERED; source script `graphics/G01/g01.py`
 
 **Required information and exact on-screen text**
 - Main takeaway — production note only; do not place on screen: Roughly half of the P-39s the factory delivered ended up with the Soviet air forces.
@@ -705,7 +705,7 @@ The table above is production input, not an on-screen text layout. Visualize the
 
 | Chapter | Needed screen time | Verified moving footage | Verified still/document coverage | Main gaps | Decision |
 | ------- | -----------------: | ----------------------: | -------------------------------: | --------- | -------- |
-| 1 Hook | 40.0 s | 34.0 s (V01 13.1, V02 12.9, V03 8.0) | 0 s still; G01 6.0 s — PLANNED G — content/spec verified; render pending | G01 motion must be rendered before the hook is final (production dependency) | READY |
+| 1 Hook | 40.0 s | 34.0 s (V01 13.1, V02 12.9, V03 8.0) | 0 s still; G01 6.0 s — RENDERED motion G (`graphics/G01/G01_Nearly_Half.mp4`), content/spec verified | None | READY |
 | 2 Built around a gun | 53.9 s | 43.9 s (V02) | G02 10.0 s (real document; PLANNED G — content/spec verified; render pending) | None | READY |
 | 3 The turbo decision | 59.0 s | 49.0 s (V01 27.1, V02 21.9) | G03 10.0 s — PLANNED G — content/spec verified; render pending | No rights-cleared footage of the XP-39 in the NACA tunnel (NACA tuft-test video is only on YouTube, so it is forbidden); covered with labelled production-P-39 footage and G03 | READY |
 | 4 Wrong height, wrong war | 82.7 s | 29.7 s (V01, context-labelled range and flight-line footage) | P01 14 s, P02 10 s, P03 10 s; G04 9 s, G05 10 s — PLANNED G — content/spec verified; render pending | No rights-cleared RAF Airacobra image (IWM Non-Commercial licence) and no P-400 combat footage; RAF told through G05; range footage labelled as context. The chapter was rewritten for the available visuals. | READY |
