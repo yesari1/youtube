@@ -1,0 +1,102 @@
+{
+ "G01": [
+  [
+   "20-round magazine",
+   "FM 23-15 (1943)"
+  ],
+  [
+   "550 rounds/min",
+   "FM 23-15 (1943), normal cyclic rate"
+  ],
+  [
+   "≈2.2 s",
+   "calculated 20/550×60=2.18"
+  ],
+  [
+   "Most effective: 120–150 rounds/min",
+   "FM 23-15 (1943)"
+  ]
+ ],
+ "G02": [
+  [
+   "U.S. Army rifle squad, 1944: 12 men, 1 BAR (squad leader, assistant squad leader, BAR team of 3, 7 riflemen)",
+   "FM 7-10 (1944)"
+  ],
+  [
+   "U.S. Marine rifle squad, 1944: 13 men, 3 BARs (squad leader + 3 fire teams of team leader (corporal), rifleman, assistant automatic rifleman, automatic rifleman)",
+   "T/O F-series (1944)"
+  ]
+ ],
+ "G03": [
+  [
+   "BAR M1918A2 with sling ≈20 lb",
+   "FM 23-15 (1943)"
+  ],
+  [
+   "M1 rifle 9.5 lb",
+   "Wikipedia 'M1 Garand' (empty, lower bound)"
+  ],
+  [
+   "1 loaded magazine 1 lb 7 oz",
+   "FM 23-15 (1943)"
+  ],
+  [
+   "Korea belt: 12 magazines",
+   "Wikipedia 'M1918 Browning Automatic Rifle' (Korean War)"
+  ],
+  [
+   "≈17 lb (calculated) = 12 × 1 lb 7 oz = 17.25 lb",
+   "calculated"
+  ],
+  [
+   "+3–4 in pockets",
+   "Wikipedia 'M1918 Browning Automatic Rifle' (Korean War)"
+  ]
+ ],
+ "G04": [
+  [
+   "Interviews with Eighth Army infantry, winter 1950–51",
+   "Marshall, ORO-R-13 (1951)"
+  ],
+  [
+   "The fire base of the infantry fight — more than the machine gun",
+   "Marshall, ORO-R-13 (1951)"
+  ],
+  [
+   "1 BAR man vs 5–6 riflemen, against snipers",
+   "Marshall, ORO-R-13 (1951)"
+  ]
+ ],
+ "G05": [
+  [
+   "WWI (M1918) 102,174 — Colt, Winchester, Marlin-Rockwell",
+   "package section F / Wikipedia"
+  ],
+  [
+   "WWII (M1918A2) 188,380 — New England Small Arms, IBM",
+   "package section F"
+  ],
+  [
+   "Korea (M1918A2) 61,000 — Royal McBee",
+   "package section F"
+  ]
+ ],
+ "G06": [
+  [
+   "1918 Walking gun",
+   "Wikipedia BAR (first combat Sept 1918)"
+  ],
+  [
+   "1938 Squad machine gun (M1918A2)",
+   "Wikipedia BAR (30 June 1938)"
+  ],
+  [
+   "1944 Heart of the Marine fire team",
+   "T/O F-series (1944)"
+  ],
+  [
+   "1957 Replaced: M14 automatic and M60",
+   "Wikipedia BAR; Wikipedia M60"
+  ]
+ ]
+}

@@ -1,0 +1,108 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../kit/fonts.css"><link rel="stylesheet" href="../kit/kit.css">
+<style>
+#card{position:absolute;left:130px;top:250px;width:730px;height:470px;background:linear-gradient(170deg,#2b271f,#211e18);border:1px solid #5d5647;box-shadow:0 30px 60px rgba(0,0,0,.45),inset 0 0 80px rgba(0,0,0,.35);transform-origin:50% 50%;}
+#card .hdr{position:absolute;left:44px;top:34px;font:500 22px 'IBM Plex Mono';letter-spacing:.16em;color:#8f897a;}
+#card .rule{position:absolute;left:44px;right:44px;top:76px;height:2px;background:#5d5647;}
+.ty{position:absolute;left:44px;width:650px;font:500 30px/1.32 'IBM Plex Mono';color:#ddd3bb;white-space:pre-wrap;}
+.car{display:inline-block;width:.55em;height:1.05em;vertical-align:-.15em;background:#c9a45a;margin-left:2px;}
+#stamp{position:absolute;left:420px;top:520px;padding:8px 18px;border:4px solid #b3362a;color:#d9573f;font:700 40px/1 'Barlow Condensed';letter-spacing:.12em;transform-origin:50% 50%;}
+#panel{position:absolute;left:900px;top:200px;width:900px;height:740px;}
+#sk{position:absolute;left:0;top:0;}
+.cap{font:600 36px/1 'Barlow Condensed';letter-spacing:.03em;}
+.f{position:absolute;width:70px;height:80px;margin:-42px 0 0 -35px;}
+#fx{position:absolute;inset:0;pointer-events:none;}
+</style></head><body>
+<div id="frame"><div id="stage">
+ <div class="t title" id="ti" style="left:136px;top:84px;font-size:84px"><span class="mask"><span>What Marshall Found, 1951</span></span></div>
+ <div id="card"><div class="hdr">FIELD INTERVIEWS · KOREA</div><div class="rule"></div>
+  <div class="ty" id="y0" style="top:104px;color:#a8a08c;font-size:27px"></div>
+  <div class="ty" id="y1" style="top:250px;color:#e8c983"></div>
+  <div class="ty" id="y2" style="top:300px"></div>
+  <div class="ty" id="y3" style="top:470px"></div>
+  
+ </div>
+ <div id="panel"><svg id="sk" width="900" height="740"></svg><div id="figs"></div>
+  <div class="t cap" id="cBar" style="left:150px;top:690px;color:var(--brassHi)">1 BAR man</div>
+  <div class="t cap" id="cRif" style="left:710px;top:690px">5–6 riflemen</div>
+  <div class="t lab" id="cSn" style="left:450px;top:404px;font-size:30px;color:var(--rustHi)">against snipers</div>
+ </div>
+ <div class="t foot" id="ft" style="left:140px;top:952px">S.L.A. Marshall, ORO-R-13 (1951)</div>
+ <canvas id="fx" width="1920" height="1080"></canvas>
+</div><div id="vig"></div></div>
+<script src="../kit/kit.js"></script><script src="../kit/fig.js"></script>
+<script>
+const CUE={sub:1.4,ridge:4.6,bar:8.2,arcs:8.7,mg:9.8,fire:11.2,shift:13.4,two:14.4,sn:16.8,cmp:18.6,thin:19.6,ft:15.2};
+const TX=[['y0','Interviews with Eighth Army infantry, winter 1950–51',CUE.sub,2.6],
+ ['y1','More than the machine gun:',CUE.mg-0.1,1.0],['y2','the fire base of the infantry fight',CUE.fire,1.5]];
+const sk=$('sk');
+// ridge sketch (panel coords). BAR anchor at centre, MG set behind and smaller
+const RX=450,RY=430;
+const ridge='M40 470 C150 420 230 452 320 430 S 470 396 560 424 S 760 448 860 410';
+sk.innerHTML=`<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 L0 0 0 40" fill="none" stroke="#3a352b" stroke-width="1.2"/></pattern>
+<filter id="ink"><feTurbulence baseFrequency=".9" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></defs>
+<rect x="0" y="0" width="900" height="740" fill="url(#grid)" opacity=".8"/>
+<g id="s1" filter="url(#ink)">
+ <path id="rd" d="${ridge}" fill="none" stroke="#a39a83" stroke-width="4" stroke-linecap="round"/>
+ <path id="rd2" d="M60 520 C180 476 260 500 350 482 S 520 452 600 474 S 780 494 850 468" fill="none" stroke="#5d5647" stroke-width="2.5" stroke-dasharray="3 10" stroke-linecap="round"/>
+ ${[120,200,280,360,540,620,700,780].map((x,i)=>`<g class="rm" data-i="${i}"><circle cx="${x}" cy="${[440,436,436,423,418,429,438,428][i]}" r="7" fill="#ece5d3"/></g>`).join('')}
+ <g id="arcs">${[90,150,210].map((r,i)=>`<path class="arc" d="M${RX-r*Math.sin(.9)} ${RY-r*Math.cos(.9)} A${r} ${r} 0 0 1 ${RX+r*Math.sin(.9)} ${RY-r*Math.cos(.9)}" fill="none" stroke="#e8c983" stroke-width="${8-2*i}" opacity="${.9-i*.22}"/>`).join('')}</g>
+ <g id="bar"><rect x="${RX-34}" y="${RY-34}" width="68" height="68" transform="rotate(45 ${RX} ${RY})" fill="#c9a45a"/><text x="${RX}" y="${RY+11}" text-anchor="middle" font-family="Barlow Condensed" font-weight="700" font-size="30" fill="#1b1914">BAR</text></g>
+ <g id="mg"><rect x="${RX+138}" y="${RY+102}" width="68" height="44" fill="none" stroke="#8f897a" stroke-width="3"/><text x="${RX+172}" y="${RY+134}" text-anchor="middle" font-family="Barlow Condensed" font-weight="600" font-size="30" fill="#8f897a">MG</text>
+  <path id="mgarc" d="M${RX+120} ${RY+80} A60 60 0 0 1 ${RX+224} ${RY+80}" fill="none" stroke="#8f897a" stroke-width="2"/></g>
+</g>
+<g id="s2">
+ <g id="sn"><circle cx="450" cy="470" r="20" fill="none" stroke="#d9573f" stroke-width="3"/><path d="M450 440 L450 500 M420 470 L480 470" stroke="#d9573f" stroke-width="3"/></g>
+ <path id="lb" d="M190 560 L436 486" stroke="#e8c983" stroke-width="7" stroke-linecap="round" fill="none"/>
+ ${[0,1,2,3,4,5].map(i=>`<path class="lr" d="M${560+i*60} 560 L${462+i*4} 488" stroke="#8f897a" stroke-width="1.6" fill="none"/>`).join('')}
+</g>`;
+const FG=$('figs'),rif=[];
+const bm=document.createElement('div');bm.className='f';bm.innerHTML=figSVG('#e8c983',true);FG.appendChild(bm);
+for(let i=0;i<6;i++){const d=document.createElement('div');d.className='f';d.innerHTML=figSVG(i===5?'none':'#ece5d3');FG.appendChild(d);
+ if(i===5){d.querySelector('circle').setAttribute('stroke','#ece5d3');d.querySelector('circle').setAttribute('stroke-width','2.5');d.querySelector('circle').setAttribute('stroke-dasharray','4 4');
+  d.querySelector('path').setAttribute('stroke','#ece5d3');d.querySelector('path').setAttribute('stroke-width','2.5');d.querySelector('path').setAttribute('stroke-dasharray','4 4');}
+ rif.push(d);}
+const dlen=el=>el.getTotalLength();
+['rd','rd2','lb','mgarc'].forEach(id=>{const e=$(id);const L=dlen(e);e.style.strokeDasharray=id==='rd2'?'':`${L}`;e.dataset.L=L;});
+document.querySelectorAll('.arc,.lr').forEach(e=>{const L=e.getTotalLength();e.style.strokeDasharray=L;e.dataset.L=L;});
+const draw=(e,p)=>{e.style.strokeDashoffset=e.dataset.L*(1-p);};
+const fx=$('fx').getContext('2d');
+function type(id,txt,t0,dur,t){const e=$(id);const n=Math.floor(txt.length*cl((t-t0)/dur));
+ const on=t>=t0&&(t<t0+dur+0.6)&&Math.floor(t*2.4)%2===0;e.innerHTML=txt.slice(0,n).replace(/</g,'&lt;')+(t>=t0&&t<t0+dur+0.6?`<span class="car" style="opacity:${on?1:0.15}"></span>`:'');}
+function render(t){
+ const a=ambient(t);
+ const rot=lerp(-0.5,0,inOutSine(seg(t,0,14)));
+ $('stage').style.transform=`translate(${a.x}px,${a.y}px) rotate(${rot}deg) scale(${lerp(1.025,1,inOutSine(seg(t,0,12)))})`;
+ maskIn($('ti').firstChild.firstChild,outQuint(seg(t,-0.9,0.5)));
+ const cp=outCubic(seg(t,-0.6,0.8)); $('card').style.opacity=0.6+0.4*cp; $('card').style.transform=`rotate(${-1.2+0.3*Math.sin(t*0.2)}deg) translateY(${(1-cp)*14}px)`;
+ TX.forEach(([id,txt,t0,d])=>type(id,txt,t0,d,t));
+ // sketch: ridge draws (frame one = grid paper), BAR anchor, fire arcs, MG behind
+ draw($('rd'),inOutSine(seg(t,CUE.ridge,CUE.ridge+2.6))); $('rd2').style.opacity=0.8*outCubic(seg(t,CUE.ridge+0.8,CUE.ridge+1.6));
+ document.querySelectorAll('.rm').forEach(g=>{const i=+g.dataset.i;g.style.opacity=outCubic(seg(t,CUE.ridge+0.9+i*0.07,CUE.ridge+1.3+i*0.07));});
+ const bp=outBack(seg(t,CUE.bar,CUE.bar+0.6),1.8); const b=$('bar');
+ b.style.opacity=cl(bp*2); b.style.transformOrigin=`${RX}px ${RY}px`; b.style.transform=`scale(${bp})`;
+ document.querySelectorAll('.arc').forEach((e,i)=>{draw(e,inOutCubic(seg(t,CUE.arcs+i*0.3,CUE.arcs+0.8+i*0.3)));
+  e.style.opacity=(0.9-i*0.22)*(0.85+0.15*Math.sin(t*2-i));});
+ const mp=outCubic(seg(t,CUE.mg,CUE.mg+0.7)); $('mg').style.opacity=0.85*mp; $('mg').style.transform=`translateY(${(1-mp)*16}px)`; draw($('mgarc'),inOutCubic(seg(t,CUE.mg+0.3,CUE.mg+1.0)));
+ // content transition: the sketch rises and shrinks to make room for the comparison
+ const sh=inOutCubic(seg(t,CUE.shift,CUE.shift+1.1));
+ $('s1').setAttribute('transform',`translate(${lerp(0,180,sh)} ${lerp(0,-130,sh)}) scale(${lerp(1,0.6,sh)})`);
+ // comparison
+ const sn=outBack(seg(t,CUE.sn,CUE.sn+0.6),1.5); $('sn').style.opacity=cl(sn*2); $('sn').style.transformOrigin='450px 470px'; $('sn').style.transform=`scale(${sn})`;
+ reveal($('cSn'),outCubic(seg(t,CUE.sn+0.3,CUE.sn+0.9)),-12); $('cSn').style.transform+=' translateX(-50%)';
+ const fb=outBack(seg(t,CUE.two+0.1,CUE.two+0.7),1.4); bm.style.opacity=cl(fb*2); bm.style.transform=`translate(150px,${600+(1-fb)*30}px) scale(1.5)`;
+ reveal($('cBar'),outCubic(seg(t,CUE.two+0.4,CUE.two+1.0)),12); $('cBar').style.transform+=' translateX(-50%)';
+ rif.forEach((d,i)=>{const u=outCubic(seg(t,CUE.cmp+i*0.1,CUE.cmp+0.5+i*0.1));d.style.opacity=u*(i===5?0.8:1);d.style.transform=`translate(${560+i*60}px,${600+(1-u)*24}px) scale(1.25)`;});
+ reveal($('cRif'),outCubic(seg(t,CUE.cmp+0.3,CUE.cmp+0.9)),12); $('cRif').style.transform+=' translateX(-50%)';
+ draw($('lb'),inOutCubic(seg(t,CUE.sn+0.4,CUE.sn+1.1))); $('lb').style.opacity=0.85+0.15*Math.sin(t*2.2);
+ document.querySelectorAll('.lr').forEach((e,i)=>{draw(e,inOutCubic(seg(t,CUE.thin+i*0.06,CUE.thin+0.5+i*0.06)));e.style.opacity=0.55;});
+ reveal($('ft'),outCubic(seg(t,CUE.ft,CUE.ft+0.8)),0);
+ fx.clearRect(0,0,1920,1080);
+ // warm pulse from the BAR anchor along the fire arcs, slow and steady during hold
+ if(t>CUE.arcs){const ph=((t-CUE.arcs)*0.45)%1; const cx=900+lerp(RX,RX*0.6+180,sh), cy=200+lerp(RY,RY*0.6-130,sh); const r=lerp(30,260,ph)*lerp(1,0.6,sh);
+  fx.strokeStyle=`rgba(232,201,131,${0.22*(1-ph)})`; fx.lineWidth=3; fx.beginPath(); fx.arc(cx,cy,r,-Math.PI/2-0.9,-Math.PI/2+0.9); fx.stroke();}
+ for(let i=0;i<22;i++){const px=(hn(i)*1920+t*(6+hn(i+40)*8))%1920, py=(hn(i+90)*1080-t*(4+hn(i+7)*4)+1080)%1080;
+  fx.fillStyle=`rgba(236,229,211,${0.04+0.05*hn(i+3)})`;fx.beginPath();fx.arc(px,py,1.1+hn(i+5)*1.5,0,7);fx.fill();}
+}
+render(0);
+</script></body></html>

@@ -1,0 +1,100 @@
+{
+ "video": "M1918 BAR (Warfront Archives)",
+ "total_s": 616.118,
+ "narration_end_s": 611.118,
+ "outro_s": 5.0,
+ "fps": 30,
+ "voice": [
+  {
+   "file": "Voice\\1.mp3",
+   "section": "VO01",
+   "offset_s": 0,
+   "length_s": 36.362
+  },
+  {
+   "file": "Voice\\2.mp3",
+   "section": "VO02",
+   "offset_s": 37.162,
+   "length_s": 118.596
+  },
+  {
+   "file": "Voice\\3.mp3",
+   "section": "VO03",
+   "offset_s": 156.558,
+   "length_s": 68.206
+  },
+  {
+   "file": "Voice\\4.mp3",
+   "section": "VO04",
+   "offset_s": 225.564,
+   "length_s": 56.999
+  },
+  {
+   "file": "Voice\\5.mp3",
+   "section": "VO05",
+   "offset_s": 283.363,
+   "length_s": 92.604
+  },
+  {
+   "file": "Voice\\6.mp3",
+   "section": "VO06",
+   "offset_s": 376.767,
+   "length_s": 63.869
+  },
+  {
+   "file": "Voice\\7.mp3",
+   "section": "VO07",
+   "offset_s": 441.437,
+   "length_s": 101.799
+  },
+  {
+   "file": "Voice\\8.mp3",
+   "section": "VO08",
+   "offset_s": 544.036,
+   "length_s": 67.082
+  }
+ ],
+ "graphics": {
+  "G01": {
+   "file": "Graphics\\Motion\\G01_Twenty_Rounds_Two_Seconds.mp4",
+   "sfx": "Graphics\\Motion\\G01_sfx.wav",
+   "fps": 60,
+   "size": "1920x1080"
+  },
+  "G02": {
+   "file": "Graphics\\Motion\\G02_Two_Ways_to_Build_a_Squad.mp4",
+   "sfx": "Graphics\\Motion\\G02_sfx.wav",
+   "fps": 60,
+   "size": "1920x1080"
+  },
+  "G03": {
+   "file": "Graphics\\Motion\\G03_What_the_BAR_Man_Carried.mp4",
+   "sfx": "Graphics\\Motion\\G03_sfx.wav",
+   "fps": 60,
+   "size": "1920x1080"
+  },
+  "G04": {
+   "file": "Graphics\\Motion\\G04_What_Marshall_Found.mp4",
+   "sfx": "Graphics\\Motion\\G04_sfx.wav",
+   "fps": 60,
+   "size": "1920x1080"
+  },
+  "G05": {
+   "file": "Graphics\\Motion\\G05_Three_Wars_of_Production.mp4",
+   "sfx": "Graphics\\Motion\\G05_sfx.wav",
+   "fps": 60,
+   "size": "1920x1080"
+  },
+  "G06": {
+   "file": "Graphics\\Motion\\G06_Forty_Years_Three_Jobs.mp4",
+   "sfx": "Graphics\\Motion\\G06_sfx.wav",
+   "fps": 60,
+   "size": "1920x1080"
+  }
+ },
+ "notes": [
+  "Row times come from faster-whisper word timestamps of the final ElevenLabs takes.",
+  "V source_out may run past the planned out-point by up to ~3 s where the narration ran longer than planned; check those cuts by eye.",
+  "No music in this rough cut; music is added in the DaVinci step."
+ ]
+}
