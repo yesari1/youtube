@@ -1,0 +1,6 @@
+# Kapak brief — TOSON S1 2026-11-11 "Why American Roads Have Yellow Center Lines"
+- Zemin: temiz beyaz (tek sürekli zemin, iç kutu/çerçeve yok).
+- Yazı (2-4 kelime, YouTube başlığını tekrar etmez): "SAME YELLOW" siyah çok kalın dar büyük harf + altında "UK: NO PARKING" (amber #F2A63A) ve "USA: ?" (teal #189FAE). Sonda nokta yok.
+- Nesne: kuşbakışı iki yol parçası üst üste: üstte İngiliz sokağı (sol trafik), kaldırım boyunca ÇİFT SARI çizgi, kaldırımda mavi-kırmızı "no waiting" levhası, beyaz bir araba kaldırıma yanaşmış; altta Amerikan yolu, ortada ÇİFT SARI orta çizgi, iki araba karşılıklı (biri sağ şeritte yukarı, öbürü karşı şeritte aşağı). Arabalar gidiş yönüne bakar, ABD sağdan, UK soldan; tüm gölgeler aynı yöne.
+- Stil: Short'taki düz renkli kuşbakışı sokak planı (thumb_ref_1.jpg kare 0, thumb_ref_2.jpg ONCOMING TRAFFIC, thumb_ref_3.jpg NO PARKING AT ANY TIME), 9:16 1080x1920, güvenli alan x 60-1020, y 300-1620.
+- Dosyalar: PC D:\Youtube\TheOtherSideOfNormal\Shorts\Thumbnails\2026-11-11_S1_American_Yellow_Center_Lines.png/.jpg · Drive G:\Drive'ım\YouTube\The Other Side of Normal\Shorts\2026-11-11_S1_American_Yellow_Center_Lines\thumbnail.jpg · proje kopyası /mnt/project-files/TheOtherSideOfNormal/Short_Previews/2026-11-11_S1_American_Yellow_Center_Lines_thumbnail.jpg
