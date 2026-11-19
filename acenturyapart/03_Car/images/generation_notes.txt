@@ -4,7 +4,7 @@ C01_1926_dealer_showroom.jpg | tries: 2 | PASS (try 1 rejected: blurred hood emb
 C02_1926_modelt_main_street.jpg | tries: 1 | PASS Model T shape, 4 spoked wheels on ground, parked right side, no text
 C03_1926_bank_teller.jpg | tries: 1 | PASS heads/hands natural, period-correct, no readable text
 C04_1926_assembly_line.jpg | tries: 1 | PASS chassis 4 wheels, workers natural, period-correct
-C05_1926_hand_crank.jpg | tries: 1 | PASS man grips crank under radiator, hands natural, wheel on left, 4 wheels
+C05_1926_hand_crank.jpg | tries: 2 | PASS (try 1 replaced on request: crank not clearly visible) new prompt; man crouches at the front, right hand on Z-crank connected under radiator, steering wheel on near left side, head/hands natural
 C06_1926_driver_pedals.jpg | tries: 1 | PASS hands 5 fingers, 3 pedals, wheel on left (seen from passenger side); hand lever sits right of driver (minor)
 C07_1926_green_maroon.jpg | tries: 1 | PASS two Model T closed cars green/maroon, black fenders, wheels on left, 4 wheels each (faint illegible brick pattern only)
 C08_1926_dirt_road.jpg | tries: 1 | PASS Model T touring, driver on left, 4 wheels in mud, right side of road, no text
