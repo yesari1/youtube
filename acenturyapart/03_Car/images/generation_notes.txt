@@ -8,7 +8,7 @@ C05_1926_hand_crank.jpg | tries: 2 | PASS (try 1 replaced on request: crank not 
 C06_1926_driver_pedals.jpg | tries: 1 | PASS hands 5 fingers, 3 pedals, wheel on left (seen from passenger side); hand lever sits right of driver (minor)
 C07_1926_green_maroon.jpg | tries: 1 | PASS two Model T closed cars green/maroon, black fenders, wheels on left, 4 wheels each (faint illegible brick pattern only)
 C08_1926_dirt_road.jpg | tries: 1 | PASS Model T touring, driver on left, 4 wheels in mud, right side of road, no text
-C09_1926_flat_tire.jpg | tries: 2 | PASS (try 1 rejected: right-hand drive, wheel still on jacked axle) wheel removed and on ground, bare hub on jack, steering wheel on near left side, heads/hands natural
+C09_1926_flat_tire.jpg | tries: 3 | PASS (try 1: right-hand drive; try 2 replaced on request: duplicated rear fender/axle) new prompt; rear-left corner on screw jack, removed wheel leaning on car, one rear axle, steering wheel on near left side, heads/hands natural
 C10_1926_city_intersection.jpg | tries: 1 | PASS officer on platform with white gloves, streetcar, Model Ts with drivers on left, no traffic lights, no readable text
 C11_1926_family_driveway.jpg | tries: 1 | PASS family of four natural, Model T 4 wheels, wheel on left (near side), tiny radiator emblem unreadable
 C12_1926_first_drive.jpg | tries: 1 | PASS driver at wheel on car's left, salesman pointing, heads/hands natural
