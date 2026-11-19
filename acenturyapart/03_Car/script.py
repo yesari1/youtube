@@ -38,6 +38,12 @@ CHUNKS = [
   ("k5", "Inside, there was no gas pedal. You set the speed with a lever on the steering wheel, and worked three pedals with your feet. One of them was reverse."),
   ("k6", "And the color? For years, Ford famously sold the Model T in black only. Nineteen twenty-six is the year that finally changed. Closed models came in green and maroon."),
  ]),
+ ("starter", 1.0, [
+  ("s1", "The crank also decided who got to drive."),
+  ("s2", "Cranking an engine took real strength. When the electric self starter arrived on Cadillacs in nineteen twelve, it opened the driver's seat to far more people."),
+  ("s3", "Within a few years, carmakers were showing women in their ads as drivers, not just passengers."),
+  ("s4", "Today, women hold just over half of all driver's licenses in America."),
+ ]),
  ("today", 1.0, [
   ("t1", "Today, you press a button."),
   ("t2", "A typical new car makes well over a hundred and fifty horsepower, shifts by itself, and comes with airbags, a backup camera and automatic emergency braking."),

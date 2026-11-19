@@ -4,7 +4,7 @@ P = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, P)
 from script import CHUNKS
 KEY = os.environ["ELEVENLABS_API_KEY"]
 VOICE = "ppLqTilh7rH7fbUVlXsf"  # David - Documentary
-TAG = {"hook": "intrigued", "price": "matter-of-fact", "credit": "thoughtful", "factory": "curious", "car": "warm",
+TAG = {"hook": "intrigued", "price": "matter-of-fact", "credit": "thoughtful", "factory": "curious", "car": "warm", "starter": "thoughtful",
        "today": "calm", "license": "measured", "roads": "serious", "numbers": "reflective", "verdict": "warm"}
 os.makedirs(f"{P}/vo", exist_ok=True)
 only = sys.argv[1:]
