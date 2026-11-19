@@ -1,0 +1,31 @@
+﻿03 Car - image generation notes (ChatGPT via Codex gpt-6.1-sol image tool, 2026-11-19). Scenes: center crop 16:9, Lanczos 1920x1080, JPG q92. Layers: real alpha PNG. Every file opened at full size and checked against the REALISM RULES.
+
+C01_1926_dealer_showroom.jpg | tries: 2 | PASS (try 1 rejected: blurred hood emblem, wheel side unclear) salesman + couple natural, Model T touring, wheel on left near side, no emblem
+C02_1926_modelt_main_street.jpg | tries: 1 | PASS Model T shape, 4 spoked wheels on ground, parked right side, no text
+C03_1926_bank_teller.jpg | tries: 1 | PASS heads/hands natural, period-correct, no readable text
+C04_1926_assembly_line.jpg | tries: 1 | PASS chassis 4 wheels, workers natural, period-correct
+C05_1926_hand_crank.jpg | tries: 1 | PASS man grips crank under radiator, hands natural, wheel on left, 4 wheels
+C06_1926_driver_pedals.jpg | tries: 1 | PASS hands 5 fingers, 3 pedals, wheel on left (seen from passenger side); hand lever sits right of driver (minor)
+C07_1926_green_maroon.jpg | tries: 1 | PASS two Model T closed cars green/maroon, black fenders, wheels on left, 4 wheels each (faint illegible brick pattern only)
+C08_1926_dirt_road.jpg | tries: 1 | PASS Model T touring, driver on left, 4 wheels in mud, right side of road, no text
+C09_1926_flat_tire.jpg | tries: 2 | PASS (try 1 rejected: right-hand drive, wheel still on jacked axle) wheel removed and on ground, bare hub on jack, steering wheel on near left side, heads/hands natural
+C10_1926_city_intersection.jpg | tries: 1 | PASS officer on platform with white gloves, streetcar, Model Ts with drivers on left, no traffic lights, no readable text
+C11_1926_family_driveway.jpg | tries: 1 | PASS family of four natural, Model T 4 wheels, wheel on left (near side), tiny radiator emblem unreadable
+C12_1926_first_drive.jpg | tries: 1 | PASS driver at wheel on car's left, salesman pointing, heads/hands natural
+C13_1926_woman_driver.jpg | tries: 1 | PASS woman driver on car's left, gloved hands on wheel, passenger beside, Model T sedan 4 wheels, no text
+D01_2026_dealer_showroom.jpg | tries: 1 | PASS no badges, wheel on left, heads/hands natural
+D02_2026_driveway_suv.jpg | tries: 1 | PASS family natural, plate blank, no badges, wheel on left
+D03_2026_loan_desk.jpg | tries: 1 | PASS woman signs tablet with stylus, key fob on desk, screens blank, hands natural
+D04_2026_robot_line.jpg | tries: 1 | PASS orange robots welding bodies, sparks, few people, no text
+D05_2026_start_button.jpg | tries: 1 | PASS hand natural, button blank; faint corner watermark-like mark removed by 7% top-left crop
+D06_2026_backup_camera.jpg | tries: 2 | PASS (try 1: Codex returned no image) wheel on left, rear-camera view with colored guide lines, no text/icons, dusk
+D07_2026_driving_test.jpg | tries: 1 | PASS teen driver on car's left, examiner with clipboard, cones, no badges
+D08_2026_highway.jpg | tries: 1 | PASS golden hour interchange, right-hand traffic consistent with lane lines, no readable signs
+L01_modelt_side.png | tries: 1 | PASS real alpha, Model T touring side profile facing right, folded roof, spoked wheels
+L02_suv_side.png | tries: 2 | PASS (try 1 rejected: front bumper cut at frame edge) real alpha, whole SUV side profile facing right, no badges; small see-through gaps in wheel spokes
+L03_hand_crank.png | tries: 1 | PASS real alpha, Z-shaped steel crank, fully inside frame
+L04_pay_envelope.png | tries: 1 | PASS real alpha, blank brown envelope with stylised bills (no readable text) and coins
+L05_key_fob.png | tries: 1 | PASS real alpha, black fob with 3 blank buttons, no logo
+L06_tire_pump.png | tries: 1 | PASS real alpha, brass/steel hand pump with hose, fully in frame
+T1_1926.jpg | tries: 1 | PASS smiling man holding passenger door, Model T 4 spoked wheels, car on right half, no text
+T1_2026.jpg | tries: 1 | PASS worried man with long blank receipt, grey SUV no badges, hands natural
