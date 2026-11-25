@@ -1,0 +1,13 @@
+# Yayın — 2026-11-25_S2_British_Road_Signs_3_Colours
+- Başlık: British Road Signs Come in 3 Colours
+- Kanal: The Other Side of Normal (Zernio hesap 6adae73a052a4e71e835df80)
+- Zernio post: 6b06b8ee90f9aa8b03c511df · zamanlandı 2026-11-25 17:00 İstanbul (14:00Z)
+- Süre 23,9 sn · 1080x1920 60 fps · -14 LUFS
+- Final (render 6): Zernio medya URL https://media.zernio.com/media/1795602669074_7ea82317ddd916b1_FINAL_2026-11-25_S2_British_Road_Signs_3_Colours.mp4 · 8918174 bayt · md5 4304930fb0a2f4c550c3fe0092d66cd0
+- Preview: TheOtherSideOfNormal/Short_Previews/2026-11-25_S2_British_Road_Signs_3_Colours_preview.mp4
+- Critic: hook v2 27/30 (v5; A7 B6 C6 D4 E4; v3 23 K1 tabela %39), genel 84 (v5; v3 81 + gerçekçilik HAYIR: kırık banket direği), gerçekçilik 5/5, takılma GEÇTİ, hook_check 0 KALDI, sessiz 1 sn testi GEÇTİ
+- v6 = v5 + küçük cila (WHY?, GREEN =/WHITE = altyazı, dar köy yolu, parlak kapanış şeridi, kuyruk 0,6 sn); hook_check ve takılma yeniden GEÇTİ
+- Tahmin: devam %69, ort. izlenme %82, ort. 19,5 sn
+- İlk yorum: What colour are the direction signs where you live? And what should we look into next?
+- Yorum yanıtı önerisi (Yunus onaylar): @chrisnell8343 yorumuna "You were right, so we made a Short about it" yanıtı
+- Drive final: kapak/arşiv thread'inde (Yol B, Zernio URL)
