@@ -1,0 +1,11 @@
+# Yayın — 2026-11-25_S1_Amtrak_Waits_For_Freight
+- Başlık: Why Amtrak Trains Wait for Freight
+- Kanal: The Other Side of Normal (Zernio hesap 6adae73a052a4e71e835df80)
+- Zernio post: 6b06807f05fc0d88aacf891a · zamanlandı 2026-11-25 12:00 İstanbul (09:00Z)
+- Süre 24,9 sn · 1080x1920 60 fps · -13,9 LUFS
+- Final: Zernio medya URL https://media.zernio.com/media/1795588221183_78898204edd14d1e_FINAL_2026-11-25_S1_Amtrak_Waits_For_Freight.mp4 · 9583835 bayt · md5 b20cb88caf553b0d6f681533a08a0b16
+- Preview: TheOtherSideOfNormal/Short_Previews/2026-11-25_S1_Amtrak_Waits_For_Freight_preview.mp4
+- Critic: hook v2 24/30 (v4), genel 83, gerçekçilik 5/5, takılma GEÇTİ, hook_check 0 KALDI
+- Tahmin: devam %68, ort. izlenme %85, ort. 21 sn
+- İlk yorum: Have you ever been stuck on an Amtrak train waiting for a freight train to pass? And what should we compare next?
+- Drive final: kapak thread'inde (Yol B)
