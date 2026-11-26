@@ -1,0 +1,11 @@
+# Yayın — 2026-11-26 S1 TOSON
+- Başlık: Britain's King Bed Is America's Queen
+- Zernio post: 6b07d410768c9e7275871e6b · zamanlandı 2026-11-26T09:00:00Z (12:00 İstanbul) · hesap 6adae73a052a4e71e835df80 (TOSON)
+- YouTube: yayından sonra eklenecek
+- Süre 27,87 sn · 1080x1920 60 fps · -14 LUFS · render 7 (cinecode)
+- Critic: hook v2 26/30 · genel 84/100 · gerçekçilik 5/5 · takılma GEÇTİ · hook_check 0 KALDI · sessiz 1 sn testi GEÇTİ
+- Tahmin: devam %70, ort. izlenme %88, ort. 24,5 sn
+- Final: Zernio media URL https://media.zernio.com/media/1795675151040_a8ca994e48d05323_FINAL_2026-11-26_S1_British_King_Is_American_Queen.mp4 · 8864093 bayt · md5 7068ee09a37eeddd94c8af5d2aef1e82
+- Drive final: kapak thread'inde
+- Müzik: "Lobby Time" Kevin MacLeod (CC BY 4.0) · VO: ElevenLabs David - Documentary
+- İlk yorum: Which one do you sleep in: a British king, an American queen, or something bigger? And what should we compare next?
