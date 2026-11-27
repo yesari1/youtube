@@ -1,0 +1,11 @@
+# Yayın — 2026-11-27 S2 TOSON
+- Başlık: Why Some Americans Ride Without Helmets
+- Zernio post: 6b09597ff492573503eaf0b1 · zamanlandı 2026-11-27T14:00:00Z (17:00 İstanbul) · hesap 6adae73a052a4e71e835df80 (TOSON)
+- YouTube: (yayından sonra eklenecek)
+- Süre 31,17 sn · 1080x1920 60 fps · -14 LUFS · render 4 (cinecode)
+- Critic: hook v2 25/30 (A7 B6 C4 D4 E4; 27.11 özne kalemi GEÇTİ) · genel 81/100 (v2 79, v3 77) · gerçekçilik 5/5 · hiza GEÇTİ · SFX GEÇTİ · takılma GEÇTİ · hook_check 0 KALDI · sessiz 1 sn testi GEÇTİ
+- Tahmin: devam %68, ort. izlenme %85, ort. 26,5 sn
+- Final: Zernio media URL https://media.zernio.com/media/1795774838328_f2953c36b4ff0ade_FINAL_2026-11-27_S2_Americans_Ride_Without_Helmets.mp4 · 14912256 bayt · md5 c500c2038d76fd51917a4b398c095619
+- Müzik: "Rollin at 5" Kevin MacLeod (CC BY 4.0) · VO: ElevenLabs David - Documentary
+- İlk yorum: Helmet on or helmet optional: which rule makes more sense to you? What should we compare next?
+- Drive final + kapak: kapak thread'inde
