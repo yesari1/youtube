@@ -1,0 +1,13 @@
+# Yayın: In America, the RV Tows the Car
+- Kanal: TOSON (Zernio hesap 6adae73a052a4e71e835df80)
+- Zernio post: 6b0aadb3a128be95a9fd4b64 · durum: scheduled 2026-11-28T14:00:00Z (17:00 İstanbul)
+- YouTube: (17:00'de yayına girince bağlanacak)
+- final_url: https://media.zernio.com/media/1795861938188_791cfda0964b2eff_FINAL_2026-11-28_S2_American_RVs_Tow_A_Car.mp4
+- final_bayt: 10279242
+- final_md5: b1bd2ca34392705072d878844d37bb57
+- Süre 26.02 sn · hook 25/30 (tur 3) · genel 85/100 (tur 4) · gerçekçilik 5/5 · takılma GEÇTİ
+- Tahmin: devam %66, ort. izlenme %85, ort. 22 sn
+- Önizleme: /mnt/project-files/TheOtherSideOfNormal/Short_Previews/2026-11-28_S2_American_RVs_Tow_A_Car_preview.mp4
+- Drive final: kapak thread'i (Remote Control curl) ile
+- Başlık: In America, the RV Tows the Car
+- firstComment: Motorhome with a car behind it, or a car with a caravan behind it: which one would you take on holiday? What should we compare next?
